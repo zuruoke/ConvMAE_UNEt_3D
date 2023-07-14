@@ -1,8 +1,8 @@
 import os
-from Downstream.model.convmae.model import ConvMAE
-from Downstream.model.core.model import Model
-from Downstream.utils.args_parser import get_args_parser
-from Downstream.utils.save_file import save_to_json
+from model.convmae.model import ConvMAE
+from model.core.model import Model
+from utils.args_parser import get_args_parser
+from utils.save_file import save_to_json
 from einops import rearrange
 import torch
 from monai.losses import DiceCELoss
@@ -11,7 +11,7 @@ from tqdm import tqdm
 from monai.data import decollate_batch
 from monai.metrics import DiceMetric
 from monai.transforms import AsDiscrete
-from Downstream.utils.data_loader import get_data_loader
+from utils.data_loader import get_data_loader
 
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:120'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

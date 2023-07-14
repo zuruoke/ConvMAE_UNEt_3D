@@ -1,6 +1,6 @@
 from monai.data import load_decathlon_datalist
 from monai.data import  DataLoader, Dataset, load_decathlon_datalist
-from Downstream.utils.data_utils import train_transforms, val_transforms
+from utils.data_utils import train_transforms, val_transforms
 
 
 def get_data_loader():

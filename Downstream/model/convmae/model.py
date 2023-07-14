@@ -1,4 +1,4 @@
-from Downstream.model.convmae.components import Block3D, CBlock3D, PatchEmbed3D
+from convmae.components import Block3D, CBlock3D, PatchEmbed3D
 import torch
 import torch.nn as nn
 from timm.models.layers import trunc_normal_
