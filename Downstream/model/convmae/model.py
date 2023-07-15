@@ -1,4 +1,5 @@
-from components import Block3D, CBlock3D, PatchEmbed3D
+from model.convmae.components import PatchEmbed3D, Block3D, CBlock3D
+import math
 import torch
 import torch.nn as nn
 from timm.models.layers import trunc_normal_
@@ -33,7 +34,7 @@ class ConvMAE(nn.Module):
 
         dpr = [x.item() for x in torch.linspace(0, drop_path_rate, sum(depth))]  # stochastic depth decay rule
         self.blocks1 = nn.ModuleList([
-            Block3D(
+            CBlock3D(
                 dim=embed_dim[0], num_heads=num_heads, mlp_ratio=mlp_ratio[0],  qkv_bias=True, qk_scale=None, norm_layer=norm_layer)
             for i in range(depth[0])])
         self.blocks2 = nn.ModuleList([
