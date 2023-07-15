@@ -16,6 +16,35 @@ from utils.data_loader import get_data_loader
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:120'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+class Args:
+    batch_size = 1
+    epochs = 400
+    accum_iter = 1
+    model = 'convmae_convvit_base_patch16'
+    input_size = 96
+    mask_ratio = 0.75
+    norm_pix_loss = False
+    weight_decay = 0.05
+    lr = None
+    blr = 1e-3
+    min_lr = 0.0
+    warmup_epochs = 40
+    data_path = '/datasets01/imagenet_full_size/061417/'
+    output_dir = '/content/drive/MyDrive/convmae/model_real'
+    log_dir = '/content/drive/MyDrive/convmae/logs'
+    device = 'cuda'
+    seed = 0
+    resume = ''
+    start_epoch = 0
+    num_workers = 10
+    pin_mem = True
+    world_size = 1
+    local_rank = -1
+    dist_on_itp = False
+    dist_url = 'env://'
+
+args = Args()
+
 max_iterations = 30000
 eval_num = 100
 post_label = AsDiscrete(to_onehot=14)
