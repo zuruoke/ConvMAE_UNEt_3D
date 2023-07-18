@@ -4,7 +4,7 @@ from utils.data_utils import train_transforms, val_transforms
 
 
 def get_data_loader(args):
-    data_dir = f"{args.root_dir}data/"
+    data_dir = f"{args.root_dir}/data/"
     split_json = "dataset_0.json"
 
     datasets = data_dir + split_json
