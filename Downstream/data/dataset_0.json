@@ -1,338 +1,176 @@
-{
+ {
+    "description": "btcv yucheng",
+    "labels": {
+        "0": "background",
+        "1": "spleen",
+        "2": "rkid",
+        "3": "lkid",
+        "4": "gall",
+        "5": "eso",
+        "6": "liver",
+        "7": "sto",
+        "8": "aorta",
+        "9": "IVC",
+        "10": "veins",
+        "11": "pancreas",
+        "12": "rad",
+        "13": "lad"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "btcv",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Vanderbilt University",
+    "release": "1.0 06/08/2015",
+    "tensorImageSize": "3D",
+    "test": [
+        "imagesTs/img0061.nii.gz",
+        "imagesTs/img0062.nii.gz",
+        "imagesTs/img0063.nii.gz",
+        "imagesTs/img0064.nii.gz",
+        "imagesTs/img0065.nii.gz",
+        "imagesTs/img0066.nii.gz",
+        "imagesTs/img0067.nii.gz",
+        "imagesTs/img0068.nii.gz",
+        "imagesTs/img0069.nii.gz",
+        "imagesTs/img0070.nii.gz",
+        "imagesTs/img0071.nii.gz",
+        "imagesTs/img0072.nii.gz",
+        "imagesTs/img0073.nii.gz",
+        "imagesTs/img0074.nii.gz",
+        "imagesTs/img0075.nii.gz",
+        "imagesTs/img0076.nii.gz",
+        "imagesTs/img0077.nii.gz",
+        "imagesTs/img0078.nii.gz",
+        "imagesTs/img0079.nii.gz",
+        "imagesTs/img0080.nii.gz"
+    ],
     "training": [
         {
-            "image": "imagesTr/DET0000101_avg.nii.gz",
-            "label": "labelsTr/DET0000101_avg_seg.nii.gz"
+            "image": "imagesTr/img0001.nii.gz",
+            "label": "labelsTr/label0001.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004301_avg.nii.gz",
-            "label": "labelsTr/DET0004301_avg_seg.nii.gz"
+            "image": "imagesTr/img0002.nii.gz",
+            "label": "labelsTr/label0002.nii.gz"
         },
         {
-            "image": "imagesTr/DET0015201_avg.nii.gz",
-            "label": "labelsTr/DET0015201_avg_seg.nii.gz"
+            "image": "imagesTr/img0003.nii.gz",
+            "label": "labelsTr/label0003.nii.gz"
         },
         {
-            "image": "imagesTr/DET0000201_avg.nii.gz",
-            "label": "labelsTr/DET0000201_avg_seg.nii.gz"
+            "image": "imagesTr/img0004.nii.gz",
+            "label": "labelsTr/label0004.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004401_avg.nii.gz",
-            "label": "labelsTr/DET0004401_avg_seg.nii.gz"
+            "image": "imagesTr/img0005.nii.gz",
+            "label": "labelsTr/label0005.nii.gz"
         },
         {
-            "image": "imagesTr/DET0015401_avg.nii.gz",
-            "label": "labelsTr/DET0015401_avg_seg.nii.gz"
+            "image": "imagesTr/img0006.nii.gz",
+            "label": "labelsTr/label0006.nii.gz"
         },
         {
-            "image": "imagesTr/DET0000801_avg.nii.gz",
-            "label": "labelsTr/DET0000801_avg_seg.nii.gz"
+            "image": "imagesTr/img0007.nii.gz",
+            "label": "labelsTr/label0007.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004601_avg.nii.gz",
-            "label": "labelsTr/DET0004601_avg_seg.nii.gz"
+            "image": "imagesTr/img0008.nii.gz",
+            "label": "labelsTr/label0008.nii.gz"
         },
         {
-            "image": "imagesTr/DET0015601_avg.nii.gz",
-            "label": "labelsTr/DET0015601_avg_seg.nii.gz"
+            "image": "imagesTr/img0009.nii.gz",
+            "label": "labelsTr/label0009.nii.gz"
         },
         {
-            "image": "imagesTr/DET0001101_avg.nii.gz",
-            "label": "labelsTr/DET0001101_avg_seg.nii.gz"
+            "image": "imagesTr/img0010.nii.gz",
+            "label": "labelsTr/label0010.nii.gz"
         },
+
         {
-            "image": "imagesTr/DET0004701_avg.nii.gz",
-            "label": "labelsTr/DET0004701_avg_seg.nii.gz"
+            "image": "imagesTr/img0021.nii.gz",
+            "label": "labelsTr/label0021.nii.gz"
         },
         {
-            "image": "imagesTr/DET0016101_avg.nii.gz",
-            "label": "labelsTr/DET0016101_avg_seg.nii.gz"
+            "image": "imagesTr/img0022.nii.gz",
+            "label": "labelsTr/label0022.nii.gz"
         },
         {
-            "image": "imagesTr/DET0001201_avg.nii.gz",
-            "label": "labelsTr/DET0001201_avg_seg.nii.gz"
+            "image": "imagesTr/img0023.nii.gz",
+            "label": "labelsTr/label0023.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004801_avg.nii.gz",
-            "label": "labelsTr/DET0004801_avg_seg.nii.gz"
+            "image": "imagesTr/img0024.nii.gz",
+            "label": "labelsTr/label0024.nii.gz"
         },
         {
-            "image": "imagesTr/DET0021501_avg.nii.gz",
-            "label": "labelsTr/DET0021501_avg_seg.nii.gz"
+            "image": "imagesTr/img0025.nii.gz",
+            "label": "labelsTr/label0025.nii.gz"
         },
         {
-            "image": "imagesTr/DET0001301_avg.nii.gz",
-            "label": "labelsTr/DET0001301_avg_seg.nii.gz"
+            "image": "imagesTr/img0026.nii.gz",
+            "label": "labelsTr/label0026.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004901_avg.nii.gz",
-            "label": "labelsTr/DET0004901_avg_seg.nii.gz"
+            "image": "imagesTr/img0027.nii.gz",
+            "label": "labelsTr/label0027.nii.gz"
         },
         {
-            "image": "imagesTr/DET0021701_avg.nii.gz",
-            "label": "labelsTr/DET0021701_avg_seg.nii.gz"
+            "image": "imagesTr/img0028.nii.gz",
+            "label": "labelsTr/label0028.nii.gz"
         },
         {
-            "image": "imagesTr/DET0001401_avg.nii.gz",
-            "label": "labelsTr/DET0001401_avg_seg.nii.gz"
+            "image": "imagesTr/img0029.nii.gz",
+            "label": "labelsTr/label0029.nii.gz"
         },
         {
-            "image": "imagesTr/DET0005001_avg.nii.gz",
-            "label": "labelsTr/DET0005001_avg_seg.nii.gz"
+            "image": "imagesTr/img0030.nii.gz",
+            "label": "labelsTr/label0030.nii.gz"
         },
         {
-            "image": "imagesTr/DET0024401_avg.nii.gz",
-            "label": "labelsTr/DET0024401_avg_seg.nii.gz"
+            "image": "imagesTr/img0031.nii.gz",
+            "label": "labelsTr/label0031.nii.gz"
         },
         {
-            "image": "imagesTr/DET0001501_avg.nii.gz",
-            "label": "labelsTr/DET0001501_avg_seg.nii.gz"
+            "image": "imagesTr/img0032.nii.gz",
+            "label": "labelsTr/label0032.nii.gz"
         },
         {
-            "image": "imagesTr/DET0005101_avg.nii.gz",
-            "label": "labelsTr/DET0005101_avg_seg.nii.gz"
+            "image": "imagesTr/img0033.nii.gz",
+            "label": "labelsTr/label0033.nii.gz"
         },
         {
-            "image": "imagesTr/DET0026901_avg.nii.gz",
-            "label": "labelsTr/DET0026901_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0001601_avg.nii.gz",
-            "label": "labelsTr/DET0001601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005201_avg.nii.gz",
-            "label": "labelsTr/DET0005201_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0028301_avg.nii.gz",
-            "label": "labelsTr/DET0028301_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0001701_avg.nii.gz",
-            "label": "labelsTr/DET0001701_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005401_avg.nii.gz",
-            "label": "labelsTr/DET0005401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0028601_avg.nii.gz",
-            "label": "labelsTr/DET0028601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0001801_avg.nii.gz",
-            "label": "labelsTr/DET0001801_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005601_avg.nii.gz",
-            "label": "labelsTr/DET0005601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0028801_avg.nii.gz",
-            "label": "labelsTr/DET0028801_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002001_avg.nii.gz",
-            "label": "labelsTr/DET0002001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005701_avg.nii.gz",
-            "label": "labelsTr/DET0005701_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0029001_avg.nii.gz",
-            "label": "labelsTr/DET0029001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002401_avg.nii.gz",
-            "label": "labelsTr/DET0002401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005801_avg.nii.gz",
-            "label": "labelsTr/DET0005801_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0030901_avg.nii.gz",
-            "label": "labelsTr/DET0030901_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002501_avg.nii.gz",
-            "label": "labelsTr/DET0002501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0005901_avg.nii.gz",
-            "label": "labelsTr/DET0005901_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0035501_avg_seg.nii.gz",
-            "label": "labelsTr/DET0035501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002601_avg.nii.gz",
-            "label": "labelsTr/DET0002601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006001_avg.nii.gz",
-            "label": "labelsTr/DET0006001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0037101_avg.nii.gz",
-            "label": "labelsTr/DET0037101_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002701_avg.nii.gz",
-            "label": "labelsTr/DET0002701_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006101_avg.nii.gz",
-            "label": "labelsTr/DET0006101_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0039401_avg.nii.gz",
-            "label": "labelsTr/DET0039401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0002801_avg.nii.gz",
-            "label": "labelsTr/DET0002801_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006201_avg.nii.gz",
-            "label": "labelsTr/DET0006201_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0039501_avg.nii.gz",
-            "label": "labelsTr/DET0039501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003101_avg.nii.gz",
-            "label": "labelsTr/DET0003101_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006301_avg.nii.gz",
-            "label": "labelsTr/DET0006301_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0040001_avg.nii.gz",
-            "label": "labelsTr/DET0040001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003201_avg.nii.gz",
-            "label": "labelsTr/DET0003201_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006401_avg.nii.gz",
-            "label": "labelsTr/DET0006401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0040101_avg.nii.gz",
-            "label": "labelsTr/DET0040101_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003301_avg.nii.gz",
-            "label": "labelsTr/DET0003301_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0006501_avg.nii.gz",
-            "label": "labelsTr/DET0006501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0040201_avg.nii.gz",
-            "label": "labelsTr/DET0040201_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003401_avg.nii.gz",
-            "label": "labelsTr/DET0003401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0007101_avg.nii.gz",
-            "label": "labelsTr/DET0007101_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0042001_avg.nii.gz",
-            "label": "labelsTr/DET0042001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003501_avg.nii.gz",
-            "label": "labelsTr/DET0003501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0008801_avg.nii.gz",
-            "label": "labelsTr/DET0008801_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0042401_avg.nii.gz",
-            "label": "labelsTr/DET0042401_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003601_avg.nii.gz",
-            "label": "labelsTr/DET0003601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0008901_avg.nii.gz",
-            "label": "labelsTr/DET0008901_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0042501_avg.nii.gz",
-            "label": "labelsTr/DET0042501_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0003801_avg.nii.gz",
-            "label": "labelsTr/DET0003801_avg_seg.nii.gz"
+            "image": "imagesTr/img0034.nii.gz",
+            "label": "labelsTr/label0034.nii.gz"
         }
     ],
     "validation": [
         {
-            "image": "imagesTr/DET0009001_avg.nii.gz",
-            "label": "labelsTr/DET0009001_avg_seg.nii.gz"
+            "image": "imagesTr/img0035.nii.gz",
+            "label": "labelsTr/label0035.nii.gz"
         },
         {
-            "image": "imagesTr/DET0042601_avg.nii.gz",
-            "label": "labelsTr/DET0042601_avg_seg.nii.gz"
+            "image": "imagesTr/img0036.nii.gz",
+            "label": "labelsTr/label0036.nii.gz"
         },
         {
-            "image": "imagesTr/DET0003901_avg.nii.gz",
-            "label": "labelsTr/DET0003901_avg_seg.nii.gz"
+            "image": "imagesTr/img0037.nii.gz",
+            "label": "labelsTr/label0037.nii.gz"
         },
         {
-            "image": "imagesTr/DET0009301_avg.nii.gz",
-            "label": "labelsTr/DET0009301_avg_seg.nii.gz"
+            "image": "imagesTr/img0038.nii.gz",
+            "label": "labelsTr/label0038.nii.gz"
         },
         {
-            "image": "imagesTr/DET0043101_avg.nii.gz",
-            "label": "labelsTr/DET0043101_avg_seg.nii.gz"
+            "image": "imagesTr/img0039.nii.gz",
+            "label": "labelsTr/label0039.nii.gz"
         },
         {
-            "image": "imagesTr/DET0004001_avg.nii.gz",
-            "label": "labelsTr/DET0004001_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0010601_avg.nii.gz",
-            "label": "labelsTr/DET0010601_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0043201_avg.nii.gz",
-            "label": "labelsTr/DET0043201_avg_seg.nii.gz"
-        },
-        {
-            "image": "imagesTr/DET0004101_avg.nii.gz",
-            "label": "labelsTr/DET0004101_avg.nii_seg.gz"
-        },
-        {
-            "image": "imagesTr/DET0014101_avg.nii.gz",
-            "label": "labelsTr/DET0014101_avg.nii_seg.gz"
-        },
-        {
-            "image": "imagesTr/DET0044601_avg.nii.gz",
-            "label": "labelsTr/DET0044601_avg.nii_seg.gz"
-        },
-        {
-            "image": "imagesTr/DET0004201_avg.nii.gz",
-            "label": "labelsTr/DET0004201_avg.nii_seg.gz"
-        },
-        {
-            "image": "imagesTr/DET0014201_avg.nii.gz",
-            "label": "labelsTr/DET0014201_avg.nii_seg.gz"
+            "image": "imagesTr/img0040.nii.gz",
+            "label": "labelsTr/label0040.nii.gz"
         }
     ]
 }
