@@ -43,7 +43,10 @@ class Args:
     dist_on_itp = False
     dist_url = 'env://'
 
-args = Args()
+# args = Args()
+
+args = get_args_parser()
+args = args.parse_args()
 
 max_iterations = 30000
 eval_num = 100
@@ -58,11 +61,12 @@ metric_values = []
 
 # get data loaders
 
-train_data_loader, val_data_loader = get_data_loader()
+train_data_loader, val_data_loader = get_data_loader(args)
 
 convmae = ConvMAE().to(device)
 
-checkpoint = torch.load('/content/drive/MyDrive/convmae/model_pretrain/checkpoint.pth')
+# checkpoint = torch.load('/content/drive/MyDrive/convmae/model_pretrain/checkpoint.pth')
+checkpoint = torch.load(f"{args.root_dir}/data/checkpoint.pth")
 convmae.load_state_dict(checkpoint['model'], strict=False)
 
 
@@ -118,12 +122,12 @@ def train(global_step, train_loader, dice_val_best, global_step_best):
             epoch_loss /= step
             epoch_loss_values.append(epoch_loss)
             metric_values.append(dice_val)
-            save_to_json(epoch_loss_values, args.root_dir, 'epoch_loss_values')
-            save_to_json(metric_values, args.root_dir, 'metric_values')
+            save_to_json(epoch_loss_values, f"{args.root_dir}/results", 'epoch_loss_values')
+            save_to_json(metric_values, f"{args.root_dir}/results", 'metric_values')
             if dice_val > dice_val_best:
                 dice_val_best = dice_val
                 global_step_best = global_step
-                torch.save(model.state_dict(), os.path.join(args.root_dir, "best_metric_model.pth"))
+                torch.save(model.state_dict(), os.path.join(f"{args.root_dir}/results", "best_metric_model.pth"))
                 print(
                     "Model Was Saved ! Current Best Avg. Dice: {} Current Avg. Dice: {}".format(dice_val_best, dice_val)
                 )
@@ -137,8 +141,6 @@ def train(global_step, train_loader, dice_val_best, global_step_best):
     return global_step, dice_val_best, global_step_best
 
 if __name__ == '__main__':
-    args = get_args_parser()
-    args = args.parse_args()
     while global_step < max_iterations:
         global_step, dice_val_best, global_step_best = train(global_step, train_data_loader, dice_val_best, global_step_best)
     
