@@ -1,0 +1,11 @@
+imagesTr/
+labelsTr/
+*.pth
+*.pt
+*.submit_file
+dataset/
+*.log
+*.error
+*.out
+*.dockerstderr
+dockerstderr
