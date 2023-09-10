@@ -1,0 +1,1492 @@
+{
+    "training": [
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0890_01-01-2000-NA-CT GUIDED LUNG B-38297_2.000000-NA-03943.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0532_01-01-2000-NA-NA-24665_3000679.000000-NA-90027.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0484_01-01-2000-NA-NA-28126_5417.000000-ChestRoutine  3.0  B31f-68211.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0373_01-01-2000-NA-NA-21998_30711.000000-NA-64515.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0864_01-01-2000-NA-NA-49085_3000287.000000-NA-75981.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0960_01-01-2000-NA-NA-83132_30287.000000-NA-14638.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0917_01-01-2000-NA-NA-73999_3000316.000000-NA-90403.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0029_01-01-2000-NA-NA-60452_3000545.000000-NA-94314.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0135_01-01-2000-NA-CT THORAX WCONTRAST-77417_3.000000-Recon 2 C-A-P-38704.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0352_01-01-2000-NA-NA-61352_30061.000000-NA-18865.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0793_01-01-2000-NA-NA-65628_5761.000000-ThorRoutine  2.0  B70f-11693.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0845_01-01-2000-NA-NA-15546_1624.000000-NLST TLC VOL B30F-61989.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0804_01-01-2000-NA-CHEST-48908_NA-73537.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0725_01-01-2000-NA-CT CHEST WO CONTRAST-98139_2.000000-NA-40668.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0988_01-01-2000-NA-CT LUNG SCREEN-17460_2.000000-NA-91986.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0442_01-01-2000-NA-NA-74113_5472.000000-ThorRoutine  3.0  B31f-25941.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0268_01-01-2000-NA-CT CAP-21194_4.000000-Recon 3 C-A-P-93813.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0759_01-01-2000-NA-NA-32639_2.000000-NA-63696.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0310_01-01-2000-NA-NA-21179_5484.000000-NA-08673.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0555_01-01-2000-NA-CT LUNG SCREEN-71520_NA-51579.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0163_01-01-2000-NA-CT THORAX WCONTRAST-52456_3.000000-Recon 2 CHEST-54230.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0552_01-01-2000-NA-CT LUNG SCREEN-82803_NA-73069.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0632_01-01-2000-NA-CT LUNG SCREEN-63313_NA-28517.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0549_01-01-2000-NA-CT LUNG SCREEN-09475_NA-27966.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0470_01-01-2000-NA-CT ANGIO CHEST NON-CO-32442_2.000000-BOTTOM TO TOP-42570.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0490_01-01-2000-NA-NA-74089_30073.000000-NA-65775.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0755_01-01-2000-NA-CT LUNG SCREEN-93266_NA-97176.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0093_01-01-2000-NA-NA-37140_3000688.000000-NA-62069.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0441_01-01-2000-NA-NA-51964_4063.000000-NLST0.6 B30f-30424.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0210_01-01-2000-NA-POST CHEST-29270_2.000000-CHEST-99234.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0510_01-01-2000-NA-NA-17014_30017.000000-NA-21805.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0335_01-01-2000-NA-NA-60329_30054.000000-NA-75212.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0121_01-01-2000-NA-NA-41529_3000776.000000-NA-23312.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0351_01-01-2000-NA-NA-65527_3000037.000000-NA-32111.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0070_01-01-2000-NA-NA-72718_3000990.000000-NA-68993.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0559_01-01-2000-NA-CT THORAX WCONTRAST-98352_3.000000-Recon 2 CHEST-77129.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0193_01-01-2000-NA-CT THORAX WCONTRAST-69121_3.000000-Recon 2 CHEST-94040.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0421_01-01-2000-NA-NA-94208_5185.000000-NA-27406.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1012_01-01-2000-1-CHEST-34668_32231.000000-NA-60224.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0587_01-01-2000-NA-NA-72112_30058.000000-NA-61074.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0322_01-01-2000-NA-CT LUNG SCREEN-17799_NA-05256.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0922_01-01-2000-NA-NA-00552_30465.000000-NA-27422.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0217_01-01-2000-NA-CT CAP W-02041_4.000000-Recon 3 C-A-P-28406.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0035_01-01-2000-NA-NA-79332_3000582.000000-NA-98613.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0683_01-01-2000-NA-CT LUNG SCREEN-69732_NA-49727.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0203_01-01-2000-NA-CHABDPELVIS-34578_4.000000-Recon 2 C-A-P-15124.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0813_01-01-2000-NA-NA-11692_3000055.000000-NA-95208.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0051_01-01-2000-NA-NA-38292_3000926.000000-NA-62838.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0978_01-01-2000-NA-NA-24151_30023.000000-NA-44075.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0456_01-01-2000-NA-NA-27710_30055.000000-NA-22949.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0152_01-01-2000-NA-NA-13622_3000995.000000-NA-12025.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0125_01-01-2000-NA-NA-56707_3001579.000000-NA-36856.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0208_01-01-2000-NA-CT CHEST  NO IV-32740_4.000000-NA-60014.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0777_01-01-2000-NA-NA-23366_3000069.000000-NA-24301.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0007_01-01-2000-NA-NA-08604_3000981.000000-NA-87749.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0194_01-01-2000-NA-CT THORAX WCONTRAST-68838_2.000000-CHEST-94975.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0836_01-01-2000-NA-NA-56519_3000049.000000-NA-86521.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0593_01-01-2000-NA-CHEST-90592_31174.000000-NA-02181.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0252_01-01-2000-NA-CT THORAX WCONTRAST-85575_2.000000-CHEST-06758.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1002_01-01-2000-NA-NA-24056_30009.000000-NA-40405.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0888_01-01-2000-NA-NA-11473_30015.000000-NA-35761.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0721_01-01-2000-NA-CT LUNG SCREEN-37562_NA-21260.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0493_01-01-2000-NA-CHEST-24958_30943.000000-NA-48335.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0752_01-01-2000-NA-CT LUNG SCREEN-89581_2.000000-NA-69862.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0156_01-01-2000-NA-NA-39422_5595.000000-NA-18854.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0425_01-01-2000-NA-NA-47805_3000054.000000-NA-46285.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0051_01-01-2000-NA-NA-69899_3000609.000000-NA-22907.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0274_01-01-2000-NA-CT THORAX WCONTRAST-53711_6.000000-Recon 3 C-A-P-19998.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0073_01-01-2000-NA-NA-44963_3000698.000000-NA-25932.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0408_01-01-2000-NA-CT CHEST O CONTR-89975_2.000000-NA-98037.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0397_01-01-2000-NA-CHEST-76013_31211.000000-Recon 2 ACRIN LARGE-70818.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0541_01-01-2000-NA-NA-89260_5515.000000-NA-39652.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0556_01-01-2000-NA-NA-43956_30079.000000-NA-96518.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0608_01-01-2000-NA-NA-27157_30022.000000-NA-06005.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0125_01-01-2000-NA-NA-61676_3000702.000000-NA-08261.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0707_01-01-2000-NA-NA-72307_5919.000000-NA-72447.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0998_01-01-2000-NA-NA-51584_5397.000000-ThoraxRoutine  3.0  B31s-66081.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0380_01-01-2000-NA-NA-50111_3000012.000000-NA-34623.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0055_01-01-2000-NA-NA-75952_3000581.000000-NA-39150.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0404_01-01-2000-NA-NA-58496_30045.000000-NA-00951.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0708_01-01-2000-NA-CT THORAX WCONTRAST-59644_3.000000-NA-02477.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0787_01-01-2000-NA-NA-53104_30821.000000-NA-77077.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0452_01-01-2000-NA-NA-11716_3000633.000000-NA-57505.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0155_01-01-2000-NA-NA-15811_3000645.000000-NA-19348.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0183_01-01-2000-NA-CT THORAX WCONTRAST-64292_3.000000-Recon 2 CHEST-55819.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0741_01-01-2000-NA-NA-01595_5470.000000-CAP  4.0  B30s-56632.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0726_01-01-2000-NA-NA-02449_1496.000000-NLST TLC VOL B30F-24024.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0800_01-01-2000-NA-CT LUNG SCREEN-70969_NA-65145.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0026_01-01-2000-NA-NA-02665_3000519.000000-NA-40086.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0245_01-01-2000-NA-CT THORAX WCONTRAST-38569_2.000000-CHEST-94083.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0403_01-01-2000-NA-NA-87070_5480.000000-Airway Study  1.25  B20s-33681.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0877_01-01-2000-NA-CT LUNG SCREEN-82704_NA-15089.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0631_01-01-2000-NA-NA-69529_1465.000000-NLST TLC VOL B30F-19639.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0151_01-01-2000-NA-NA-41513_5408.000000-NA-86657.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0873_01-01-2000-NA-CT LUNG SCREEN-52372_NA-90879.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0577_01-01-2000-NA-NA-78172_5490.000000-ThoraxRoutine  3.0  B31s-93067.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0964_01-01-2000-NA-CT LUNG SCREEN-54418_NA-86458.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0355_01-01-2000-NA-NA-41454_3190.000000-NA-45197.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0794_01-01-2000-NA-NA-23227_30037.000000-NA-18345.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0722_01-01-2000-NA-NA-52860_30701.000000-NA-22343.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0008_01-01-2000-NA-NA-30141_3000549.000000-NA-21954.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0483_01-01-2000-NA-CT LUNG SCREEN-37152_2.000000-NA-34559.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0578_01-01-2000-NA-CHESTABDPELVIS-44681_4.000000-NA-99991.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0698_01-01-2000-NA-CT THORAX WO IV CONTRA-59895_31323.000000-Recon 2 LOW DOSE THROUGH LUNGS-05368.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0980_01-01-2000-NA-NA-26562_3152.000000-NA-20813.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0514_01-01-2000-NA-NA-87995_3000281.000000-NA-52230.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0384_01-01-2000-NA-CHEST-72716_30918.000000-Recon 2 ACRIN LARGE-65567.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0639_01-01-2000-NA-NA-37261_30748.000000-NA-73080.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0910_01-01-2000-NA-NA-92226_5917.000000-NA-19813.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0410_01-01-2000-NA-CT LUNG SCREEN-90336_NA-46543.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0635_01-01-2000-NA-NA-57742_5444.000000-NA-10043.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0060_01-01-2000-NA-NA-18382_3000575.000000-NA-55115.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0629_01-01-2000-NA-NA-42287_30012.000000-NA-61822.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0600_01-01-2000-NA-CT CHEST WO CONTRAST-13528_2.000000-NA-19680.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0594_01-01-2000-NA-CT CHEST O CONTR-43117_NA-17124.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0036_01-01-2000-NA-NA-49231_3000521.000000-NA-18990.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0546_01-01-2000-NA-NA-72276_5758.000000-ChestRoutine  2.0  B70f-17281.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0851_01-01-2000-NA-NA-88897_30053.000000-NA-32478.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0110_01-01-2000-NA-NA-26515_3309.000000-ThoraxRoutine  3.0  B31f-73912.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0236_01-01-2000-NA-CT THORAX WCONTRAST-06136_2.000000-CHEST-17774.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0304_01-01-2000-NA-NA-20516_3000040.000000-NA-28684.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0417_01-01-2000-NA-CT LUNG SCREEN-38390_NA-52296.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0263_01-01-2000-NA-CT CAP WCONTRAST-94478_4.000000-NA-94671.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0956_01-01-2000-NA-CT CHEST WO CONTRAST-78242_2.000000-NA-18896.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0974_01-01-2000-NA-NA-78581_3000038.000000-NA-23884.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0714_01-01-2000-NA-CT CHEST O CONTR-93152_2.000000-NA-53158.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0298_01-01-2000-NA-NA-11572_3000663.000000-NA-48288.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0900_01-01-2000-NA-CHEST-09248_32250.000000-Recon 2 ACRIN LARGE-76100.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0607_01-01-2000-NA-NA-04730_30082.000000-NA-50229.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0963_01-01-2000-1-NA-69037_30772.000000-NA-67558.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0859_01-01-2000-NA-NA-77782_3000678.000000-NA-22101.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0551_01-01-2000-NA-NA-54069_30749.000000-NA-88562.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0494_01-01-2000-NA-CT LUNG SCREEN-54823_NA-53872.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0573_01-01-2000-NA-CT LUNG SCREEN-12285_NA-14534.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0742_01-01-2000-NA-NA-43529_30031.000000-NA-43898.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0170_01-01-2000-NA-CT ANGIO CHEST NON-CO-54679_2.000000-BOTTOM TO TOP-33437.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0745_01-01-2000-NA-NA-24059_3000028.000000-NA-45866.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0013_01-01-2000-NA-NA-54750_3000551.000000-NA-80786.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0145_01-01-2000-NA-NA-44241_3000668.000000-NA-22488.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0673_01-01-2000-NA-CT THORAX WO IV CONTRA-66360_31167.000000-Recon 2 ACRIN LARGE-53948.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0525_01-01-2000-NA-NA-26079_2016.000000-NLST TLC VOL B30F-03574.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0249_01-01-2000-NA-CT ANGIO CHEST NON-CO-36080_3.000000-Recon 2 BOTTOM TO TOP-28001.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0198_01-01-2000-NA-CT THORAX WCONTRAST-08033_2.000000-CHEST-32481.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0290_01-01-2000-NA-CT THORAX WCONTRAST-53087_2.000000-CHEST-42176.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0597_01-01-2000-NA-NA-99673_5481.000000-NA-09376.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0018_01-01-2000-NA-NA-90263_3000550.000000-NA-10592.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0090_01-01-2000-NA-CT THORAX WCONTRAST-68962_3.000000-Recon 2 CHEST-46707.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0973_01-01-2000-NA-NA-60893_3000017.000000-NA-85026.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0935_01-01-2000-NA-NA-30049_5413.000000-ThorRoutine  3.0  B31f-52432.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0718_01-01-2000-NA-CT CHEST WO CONTRAST-66547_2.000000-NA-40429.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0267_01-01-2000-NA-CT THORAX WO CONTRAST-75468_2.000000-CHEST-23992.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0913_01-01-2000-NA-NA-97075_30020.000000-NA-15038.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0280_01-01-2000-NA-CT ANGIO CHEST WWO C-02102_2.000000-BOTTOM TO TOP-39398.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0504_01-01-2000-NA-NA-92373_5925.000000-NA-68064.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0025_01-01-2000-NA-NA-94910_3000524.000000-NA-53557.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0478_01-01-2000-NA-NA-96796_1386.000000-NLST TLC VOL B30F-01883.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0303_01-01-2000-NA-NA-04919_5344.000000-ThorRoutine  3.0  B31f-48770.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0904_01-01-2000-NA-NA-73799_5483.000000-NA-42621.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0807_01-01-2000-NA-NA-23693_1775.000000-NLST TLC VOL B30F-11534.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0626_01-01-2000-NA-CT LUNG SCREEN-30781_NA-14630.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0732_01-01-2000-NA-NA-16732_3000041.000000-NA-15660.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0017_01-01-2000-NA-NA-69301_3000613.000000-NA-28428.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0321_01-01-2000-NA-CT CHEST WO CONTRAST-40218_2.000000-NA-28066.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0455_01-01-2000-NA-CT CHEST O CONTR-29059_2.000000-NA-61235.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0977_01-01-2000-NA-CT LUNG SCREEN-02638_NA-56038.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0767_01-01-2000-NA-NA-45858_3000005.000000-NA-79768.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0113_01-01-2000-NA-NA-92194_3000691.000000-NA-63327.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0045_01-01-2000-NA-NA-17703_3000547.000000-NA-78950.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0200_01-01-2000-NA-CAP LYM PREPOST-54643_6.000000-Recon 3 C-A-P-08613.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0118_01-01-2000-NA-CT CHEST W CONT-82336_4.000000-Recon 3 CHEST-57528.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0167_01-01-2000-NA-CT THORAX WCONTRAST-39127_2.000000-CHEST-44656.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0788_01-01-2000-NA-NA-95079_3000283.000000-NA-59366.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0277_01-01-2000-NA-CT CAP-12426_4.000000-Recon 3 C-A-P-44415.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0983_01-01-2000-NA-NA-23450_5514.000000-NA-26785.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0317_01-01-2000-NA-CT LUNG SCREEN-00031_NA-56720.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0649_01-01-2000-NA-CT LUNG SCREEN-00055_NA-09630.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0264_01-01-2000-NA-CT ANGIO CHEST WWO C-88372_2.000000-BOTTOM TO TOP-00599.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0407_01-01-2000-NA-NA-10639_3000004.000000-NA-31179.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0831_01-01-2000-NA-NA-89224_30830.000000-NA-88362.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0394_01-01-2000-NA-CT CHEST O CONTR-49170_NA-47663.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0117_01-01-2000-NA-NA-09107_3084.000000-NA-91206.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0663_01-01-2000-NA-NA-82524_30817.000000-NA-65421.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0041_01-01-2000-NA-NA-19169_3000568.000000-NA-87015.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0232_01-01-2000-NA-CT THORAX WCONTRAST-66650_3.000000-Recon 2 CHEST-95182.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0614_01-01-2000-NA-CHEST-89167_30983.000000-Recon 2 LOW DOSE THROUGH LUNGS-18641.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0598_01-01-2000-NA-NA-70111_3000015.000000-NA-69356.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0760_01-01-2000-NA-CT THORAX WO IV CONTRA-75988_31249.000000-HELICAL INSPIRATION-36171.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0756_01-01-2000-NA-NA-35476_30295.000000-NA-21281.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0067_01-01-2000-NA-NA-96244_3001615.000000-NA-46975.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0142_01-01-2000-NA-NA-58853_5593.000000-ThorRoutine  2.0  B70f-43044.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0164_01-01-2000-NA-PE CHEST WITH-13972_2.000000-BOTTOM TO TOP-58588.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0042_01-01-2000-NA-NA-33377_3000579.000000-NA-20341.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0670_01-01-2000-NA-NA-72884_3000056.000000-NA-24196.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0387_01-01-2000-NA-NA-65956_5486.000000-ThoraxRoutine  3.0  B31s-08192.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0251_01-01-2000-NA-CT THORAX WCONTRAST-52009_2.000000-CHEST-59377.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0678_01-01-2000-NA-NA-72850_3000016.000000-NA-10450.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0070_01-01-2000-NA-NA-59500_3000667.000000-NA-54720.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0945_01-01-2000-NA-NA-62107_5422.000000-NA-06513.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0436_01-01-2000-NA-NA-51874_5348.000000-ChestRoutine  3.0  B31f-55181.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0359_01-01-2000-NA-NA-51279_3096.000000-NA-99750.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0874_01-01-2000-NA-CHEST-03158_32246.000000-Recon 2-25545.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0132_01-01-2000-NA-NA-29678_3163.000000-ChestRoutine  3.0  B31f-22057.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0180_01-01-2000-NA-CT ANGIO CHEST NON-CO-18752_2.000000-BOTTOM TO TOP-13968.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1001_01-01-2000-NA-NA-89347_3000026.000000-NA-36860.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0197_01-01-2000-NA-CT CHABPELVIS-93530_3.000000-Recon 2 C-A-P-85333.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0229_01-01-2000-NA-CT THORAX WO CONTRAST-80989_4.000000-NA-59845.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0984_01-01-2000-NA-CT LUNG SCREEN-67378_NA-76953.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0621_01-01-2000-NA-NA-03312_3993.000000-NLST0.6 B30f-95820.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0308_01-01-2000-NA-CHEST-81653_32236.000000-Recon 2-05185.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0545_01-01-2000-NA-CHEST-53172_31181.000000-Recon 2 ACRIN LARGE-46863.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0339_01-01-2000-NA-CT LUNG SCREEN-72362_NA-20843.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0074_01-01-2000-NA-NA-21544_3000704.000000-NA-44897.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0617_01-01-2000-NA-NA-51600_30081.000000-NA-14069.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0584_01-01-2000-NA-CHEST-75079_30968.000000-NA-20907.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0059_01-01-2000-NA-NA-67090_3000564.000000-NA-48912.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0763_01-01-2000-NA-NA-15567_30067.000000-NA-22785.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0188_01-01-2000-NA-CHESTABDPELVIS-30124_4.000000-Recon 2 C-A-P-84739.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0356_01-01-2000-NA-NA-62905_3000294.000000-NA-68066.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0431_01-01-2000-NA-NA-23377_30841.000000-NA-59233.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0177_01-01-2000-NA-CT THORAX WO CONTRAST-73613_3.000000-Recon 2 CHEST-61062.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0459_01-01-2000-NA-CHEST-79708_32233.000000-NA-88500.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0325_01-01-2000-1-NA-23372_30024.000000-NA-81290.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0622_01-01-2000-NA-NA-63743_3000001.000000-NA-07488.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0625_01-01-2000-NA-NA-38584_1560.000000-NLST TLC VOL B30F-74395.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0821_01-01-2000-NA-NA-40989_1715.000000-NLST TLC VOL B30F-45782.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0914_01-01-2000-NA-CT LUNG SCREEN-72732_2.000000-NA-22350.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0367_01-01-2000-NA-CT THORAX WO IV CONTRA-35645_31518.000000-Recon 2 ACRIN LARGE-43313.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0297_01-01-2000-NA-NA-10609_1530.000000-NLST TLC VOL B30F-18440.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0931_01-01-2000-NA-NA-79380_3000010.000000-NA-05135.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0467_01-01-2000-NA-NA-15541_30062.000000-NA-97495.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1005_01-01-2000-NA-NA-59955_3000657.000000-NA-15191.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0488_01-01-2000-NA-NA-32704_30719.000000-NA-68431.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0168_01-01-2000-NA-CT ANGIO CHEST NON-CO-93392_2.000000-BOTTOM TO TOP-62523.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0363_01-01-2000-NA-CT LUNG SCREEN-11096_2.000000-NA-97832.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0464_01-01-2000-NA-CT CHEST O CONTR-29869_2.000000-NA-80358.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0318_01-01-2000-NA-NA-42928_1785.000000-NLST TLC VOL B30F-26096.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0390_01-01-2000-NA-NA-10441_5437.000000-Routine Chest  3.0  B31s-70915.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0449_01-01-2000-NA-NA-47589_3231.000000-NA-88842.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0370_01-01-2000-NA-NA-68108_30298.000000-NA-40645.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0870_01-01-2000-NA-NA-22534_3000022.000000-NA-26314.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0152_01-01-2000-NA-NA-78489_3000696.000000-NA-27171.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0967_01-01-2000-NA-CT LUNG SCREEN-66502_NA-60723.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0241_01-01-2000-NA-CT CHEST WO CON-12798_4.000000-NA-15280.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0368_01-01-2000-NA-NA-98197_5445.000000-NA-45926.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0522_01-01-2000-NA-NA-10470_30014.000000-NA-77035.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0270_01-01-2000-NA-CT THORAX WCONTRAST-26845_3.000000-Recon 2 C-A-P-98011.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0010_01-01-2000-NA-NA-43375_3000518.000000-NA-66796.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0221_01-01-2000-NA-THORAX WITH-39271_2.000000-CHEST-20823.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0463_01-01-2000-NA-NA-54542_1695.000000-NLST TLC VOL B30F-34766.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0773_01-01-2000-NA-NA-71746_5198.000000-NA-88504.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0159_01-01-2000-NA-CTC-A-P-13995_3.000000-Recon 2 C-A-P-49228.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0204_01-01-2000-NA-CT THORAX WCONTRAST-50204_3.000000-NA-92139.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0700_01-01-2000-NA-NA-49455_30321.000000-NA-71594.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0087_01-01-2000-NA-NA-68125_3000640.000000-NA-85809.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0521_01-01-2000-NA-NA-16104_3000661.000000-NA-33473.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0313_01-01-2000-NA-CT GUIDED LUNG B-04460_2.000000-NA-62930.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0536_01-01-2000-NA-NA-32762_30456.000000-NA-23059.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0126_01-01-2000-NA-NA-42927_3000982.000000-NA-30443.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0674_01-01-2000-NA-NA-30811_3000673.000000-NA-14021.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0790_01-01-2000-NA-CT GUIDED LUNG B-08071_2.000000-NA-25223.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0693_01-01-2000-NA-CT LUNG SCREEN-13242_NA-72830.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0414_01-01-2000-NA-NA-33807_5439.000000-ThoraxRoutine  3.0  B31s-13435.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0094_01-01-2000-NA-NA-80662_5587.000000-Routine Chest  2.0  B70f-24839.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0360_01-01-2000-NA-NA-88439_5395.000000-Lung3mmWC 3.0 B40s-59985.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0860_01-01-2000-NA-NA-17157_3000282.000000-NA-81687.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0677_01-01-2000-NA-CHEST-25551_31169.000000-LOW DOSE THROUGH LUNGS-56859.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0667_01-01-2000-NA-CHEST-06759_31215.000000-Recon 2 ACRIN LARGE-21616.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0808_01-01-2000-NA-NA-78588_3000681.000000-NA-46898.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0529_01-01-2000-NA-NA-79222_30366.000000-NA-53085.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0146_01-01-2000-NA-NA-37649_3000653.000000-NA-67579.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0063_01-01-2000-NA-NA-51316_3000555.000000-NA-81128.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0731_01-01-2000-NA-NA-62365_30739.000000-NA-20669.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0284_01-01-2000-NA-CT THORAX WCONTRAST-25326_4.000000-NA-41371.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0868_01-01-2000-NA-CT LUNG SCREEN-11903_NA-21476.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0613_01-01-2000-NA-NA-71253_30052.000000-NA-55367.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0226_01-01-2000-NA-CT CAP-58241_4.000000-Recon 3 C-A-P-36247.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0968_01-01-2000-NA-NA-48407_3000636.000000-NA-64658.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0588_01-01-2000-NA-CT THORAX WCONTRAST-44257_3.000000-NA-90929.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0056_01-01-2000-NA-NA-35375_3000535.000000-NA-98069.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0918_01-01-2000-NA-CT LUNG SCREEN-36846_NA-68137.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0507_01-01-2000-NA-NA-84162_3000638.000000-NA-21986.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0014_01-01-2000-NA-NA-38612_3000562.000000-NA-07402.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0993_01-01-2000-NA-NA-94963_3258.000000-NA-65588.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0451_01-01-2000-NA-NA-43994_3000315.000000-NA-48244.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0932_01-01-2000-NA-NA-99550_3000288.000000-NA-64961.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0378_01-01-2000-NA-NA-15938_5404.000000-NA-25148.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0341_01-01-2000-NA-CT CHEST WO CONTRAST-30157_2.000000-NA-52962.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0951_01-01-2000-NA-NA-28365_30043.000000-NA-40576.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0136_01-01-2000-NA-NA-99869_3133.000000-ChestRoutine  3.0  B31f-06739.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0929_01-01-2000-NA-CT CHEST WO CONTRAST-09749_2.000000-NA-32029.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0039_01-01-2000-NA-NA-49300_3000517.000000-NA-01463.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0829_01-01-2000-NA-CT GUIDED LUNG B-97111_3.000000-NA-15391.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0151_01-01-2000-NA-NA-74937_3144.000000-ThoraxRoutine  3.0  B31s-72998.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0583_01-01-2000-NA-NA-18747_30077.000000-NA-81802.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0097_01-01-2000-NA-NA-69162_3000738.000000-NA-35891.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0242_01-01-2000-NA-CT THORAX WCONTRAST-58962_2.000000-CHEST-17235.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0749_01-01-2000-NA-NA-96205_5441.000000-ThoraxRoutine  3.0  B31s-86929.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0083_01-01-2000-NA-NA-22049_3000646.000000-NA-60532.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0067_01-01-2000-NA-NA-71158_3000708.000000-NA-21600.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0184_01-01-2000-NA-CT THORAX WCONTRAST-63701_3.000000-Recon 2 CHEST-04872.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1011_01-01-2000-NA-CT THORAX WCONTRAST-94040_2.000000-CHEST-06815.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0814_01-01-2000-NA-NA-04245_30066.000000-NA-74444.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0839_01-01-2000-NA-CHEST-88629_31502.000000-Recon 2-89762.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0173_01-01-2000-NA-CT THORAX WCONTRAST-01973_3.000000-Recon 2 CHEST-13394.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0139_01-01-2000-NA-NA-40012_3000692.000000-NA-24156.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0946_01-01-2000-NA-NA-23166_5489.000000-ThoraxRoutine  3.0  B31s-83373.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0278_01-01-2000-NA-CT ANGIO CHEST NON-CO-86536_2.000000-BOTTOM TO TOP-86949.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0642_01-01-2000-NA-NA-64850_5750.000000-NA-39814.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0346_01-01-2000-NA-NA-25611_5487.000000-NA-42952.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0103_01-01-2000-NA-NA-84710_5519.000000-ChestRoutine  3.0  B31f-39568.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0959_01-01-2000-NA-CT LUNG SCREEN-74030_NA-44696.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0774_01-01-2000-NA-CT CHEST O CONTR-28182_2.000000-NA-98197.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0113_01-01-2000-NA-NA-43730_3001571.000000-NA-77826.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0764_01-01-2000-NA-CT LUNG SCREEN-05419_NA-26904.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0907_01-01-2000-NA-CT CHEST O CONTR-86190_NA-73696.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0032_01-01-2000-NA-NA-53482_3000537.000000-NA-91689.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0413_01-01-2000-NA-NA-05546_3000050.000000-NA-14231.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0225_01-01-2000-NA-CT THORAX WO CONTRAST-79400_2.000000-CHEST-16551.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0949_01-01-2000-NA-NA-52675_3180.000000-NA-13434.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0826_01-01-2000-NA-NA-19915_30316.000000-NA-04729.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0374_01-01-2000-NA-CT CHEST WO CONTRAST-02290_2.000000-NA-33304.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0835_01-01-2000-NA-NA-26309_30025.000000-NA-94207.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0114_01-01-2000-NA-NA-97315_3000644.000000-NA-11228.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0903_01-01-2000-NA-CT LUNG SCREEN-37260_NA-59551.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0652_01-01-2000-NA-CHEST-12500_31192.000000-ACRIN LARGE-18048.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0007_01-01-2000-NA-NA-81781_3000631.000000-NA-57680.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0332_01-01-2000-NA-NA-07398_30242.000000-NA-57094.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0570_01-01-2000-NA-CT LUNG SCREEN-23771_NA-13386.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0294_01-01-2000-NA-NA-44453_3000019.000000-NA-39846.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0894_01-01-2000-NA-CT LUNG SCREEN-79315_NA-20244.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1006_01-01-2000-NA-NA-49962_30038.000000-NA-20874.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0997_01-01-2000-NA-NA-96481_1491.000000-NLST TLC VOL B30F-16103.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0908_01-01-2000-NA-CT THORAX WO IV CONTRA-56361_31517.000000-Recon 2 ACRIN LARGE-11282.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0364_01-01-2000-NA-CT LUNG SCREEN-04242_NA-52136.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0418_01-01-2000-NA-NA-71464_3000651.000000-NA-51680.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0567_01-01-2000-NA-NA-35032_30068.000000-NA-49011.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0898_01-01-2000-NA-NA-64440_30046.000000-NA-49169.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0798_01-01-2000-NA-NA-50632_5424.000000-NA-05549.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0187_01-01-2000-NA-CT THORAX WO CONTRAST-12606_2.000000-CHEST-25249.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0355_01-01-2000-NA-NA-27898_5512.000000-ThoraxRoutine  3.0  B31s-30926.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0568_01-01-2000-NA-CT THORAX W IV CONTRAS-87975_31261.000000-NA-64474.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0178_01-01-2000-NA-CT THORAX WCONTRAST-30822_4.000000-Recon 3 C-A-P-77603.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0564_01-01-2000-NA-NA-77519_30802.000000-NA-23746.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0518_01-01-2000-NA-NA-43861_5922.000000-NA-53685.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0797_01-01-2000-NA-CT LUNG SCREEN-63534_NA-61877.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0517_01-01-2000-NA-CT LUNG SCREEN-04221_NA-99956.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0477_01-01-2000-NA-CT CHEST O CONTR-77459_2.000000-NA-44986.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0293_01-01-2000-NA-CHEST-43101_31356.000000-Recon 2 ACRIN SMALL-59979.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0003_01-01-2000-NA-NA-94866_3000611.000000-NA-03264.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0735_01-01-2000-NA-NA-09271_30072.000000-NA-76543.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0656_01-01-2000-NA-CT CHEST O CONTR-51770_2.000000-NA-47014.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0429_01-01-2000-NA-CT THORAX WO IV CONTRA-03396_32124.000000-Recon 2 ACRIN LARGE-74324.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0717_01-01-2000-NA-NA-27983_1644.000000-NLST TLC VOL B30F-89377.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0283_01-01-2000-NA-CAP POST-77406_3.000000-Recon 2 C-A-P-16280.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0145_01-01-2000-NA-NA-60671_3001603.000000-NA-88945.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0218_01-01-2000-NA-CT GUIDED LUNG B-79399_2.000000-NA-09778.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0004_01-01-2000-NA-NA-91780_3000534.000000-NA-58228.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0604_01-01-2000-NA-NA-47843_30780.000000-NA-06982.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0713_01-01-2000-NA-NA-75833_5183.000000-ThoraxRoutine  3.0  B31s-15582.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0084_01-01-2000-NA-NA-27940_3211.000000-NA-79503.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0778_01-01-2000-NA-CHEST-15771_31218.000000-Recon 2-34053.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0942_01-01-2000-NA-NA-32687_30063.000000-NA-97097.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0104_01-01-2000-NA-NA-16722_5597.000000-NA-08531.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0503_01-01-2000-NA-NA-28519_3000029.000000-NA-66019.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0487_01-01-2000-NA-NA-57724_4155.000000-NLST TLC VOL B30F-21227.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0990_01-01-2000-NA-NA-76086_30042.000000-NA-68974.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0897_01-01-2000-NA-CHEST-60348_31373.000000-Recon 2 ACRIN LARGE-93219.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0231_01-01-2000-NA-CT THORAX WCONTRAST-83973_4.000000-Recon 2 C-A-P-54201.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0832_01-01-2000-NA-CT LUNG SCREEN-81549_NA-75410.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0739_01-01-2000-NA-CHEST-83097_31197.000000-Recon 2 ACRIN LARGE-45296.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0052_01-01-2000-NA-NA-51420_3000625.000000-NA-20084.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0239_01-01-2000-NA-CT THORAX WO CONTRAST-05073_3.000000-Recon 2 CHEST-62398.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0784_01-01-2000-NA-CHEST-12749_32202.000000-Recon 2 ACRIN LARGE-64522.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0660_01-01-2000-NA-CT CHEST O CONTR-71530_2.000000-NA-00418.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0783_01-01-2000-NA-CT CHEST O CONTR-92469_NA-40196.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0818_01-01-2000-NA-CT ANGIO CHEST WWO C-68235_2.000000-CT PE PROTOCOL BOTTOM TO TOP-85951.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0921_01-01-2000-NA-NA-08679_30027.000000-NA-45468.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0108_01-01-2000-NA-NA-23094_3000699.000000-NA-84679.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0987_01-01-2000-NA-NA-11006_30328.000000-NA-25409.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0780_01-01-2000-NA-NA-49416_30848.000000-NA-57827.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0259_01-01-2000-NA-CT THORAX WCONTRAST-90069_4.000000-NA-11586.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0078_01-01-2000-NA-NA-68432_3165.000000-NA-53824.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0542_01-01-2000-NA-CHEST-89631_31184.000000-Recon 2-69557.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0842_01-01-2000-NA-CT THORAX WCONTRAST-51482_3.000000-NA-26488.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0255_01-01-2000-NA-CT-CHAP-11331_3.000000-Recon 2 C-A-P-94518.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0439_01-01-2000-NA-NA-05676_3102.000000-NA-08838.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0936_01-01-2000-NA-CT GUIDED LUNG B-34718_2.000000-NA-15169.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0736_01-01-2000-NA-NA-31791_3000683.000000-NA-34066.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0100_01-01-2000-NA-CT CHEST WO CON-40731_4.000000-Recon 3 CHEST 5X5-98181.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0422_01-01-2000-NA-CT GUIDED LUNG BIOPSY-28835_3.000000-NA-26594.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0088_01-01-2000-NA-CT CHABPEL WO-92527_4.000000-Recon 3-02075.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0883_01-01-2000-NA-NA-75037_5755.000000-ChestRoutine  2.0  B70f-90986.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0704_01-01-2000-NA-CT THORAX WO IV CONTRA-50143_31273.000000-Recon 2 ACRIN LARGE-98412.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0817_01-01-2000-NA-NA-75660_3000051.000000-NA-57590.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0687_01-01-2000-NA-CT LUNG SCREEN-51448_NA-89532.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0287_01-01-2000-NA-CH-AB WWO-57105_6.000000-Recon 3 CHEST-ABD-05112.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0332_01-01-2000-NA-NA-59207_30078.000000-NA-79250.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0246_01-01-2000-NA-CAP-87239_4.000000-Recon 3 C-A-P-31091.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0300_01-01-2000-NA-NA-69705_3000658.000000-NA-28329.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0129_01-01-2000-NA-CT ANGIO CHEST WWO C-30279_2.000000-BOTTOM TO TOP-12518.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0273_01-01-2000-NA-CT THORAX WCONTRAST-57410_2.000000-CHEST-88746.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0887_01-01-2000-NA-CT LUNG SCREEN-02188_NA-22213.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0746_01-01-2000-NA-CHEST-84209_32139.000000-NA-61095.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0684_01-01-2000-NA-NA-42842_30834.000000-NA-36987.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0690_01-01-2000-NA-CT LUNG SCREEN-42147_NA-82395.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0770_01-01-2000-NA-NA-02250_3000634.000000-NA-29556.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0803_01-01-2000-NA-CT CHEST O CONTR-96534_NA-73142.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0141_01-01-2000-NA-NA-68360_5606.000000-ThorRoutine  2.0  B70f-83786.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0336_01-01-2000-NA-CT LUNG SCREEN-80337_NA-67830.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0342_01-01-2000-NA-CT LUNG SCREEN-62827_NA-76919.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0288_01-01-2000-NA-CT ANGIO CHEST WWO C-47845_2.000000-BOTTOM TO TOP-54574.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0383_01-01-2000-NA-NA-42739_3000687.000000-NA-38881.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0080_01-01-2000-NA-NA-38073_3000733.000000-NA-81782.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0655_01-01-2000-NA-NA-36060_1326.000000-NLST TLC VOL B30F-53512.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0580_01-01-2000-1-NA-15860_30811.000000-NA-05216.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0825_01-01-2000-NA-NA-57060_3000659.000000-NA-81131.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0222_01-01-2000-NA-CAP-79315_4.000000-Recon 3 C-A-P-45171.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0641_01-01-2000-NA-CHEST-55759_31163.000000-NA-34230.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0174_01-01-2000-NA-CT THORAX WCONTRAST-21864_2.000000-CHEST-61082.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0480_01-01-2000-NA-NA-96977_30459.000000-NA-08058.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0867_01-01-2000-NA-NA-52310_30337.000000-NA-41831.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-1009_01-01-2000-NA-CT THORAX WCONTRAST-88101_3.000000-Recon 2 CHEST-38044.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0884_01-01-2000-NA-CT LUNG SCREEN-63626_2.000000-NA-46335.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0563_01-01-2000-NA-NA-16695_3000053.000000-NA-03514.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0531_01-01-2000-NA-CT LUNG SCREEN-21135_NA-11064.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0925_01-01-2000-NA-NA-94111_3000675.000000-NA-23962.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0651_01-01-2000-NA-NA-00685_30041.000000-NA-30421.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0213_01-01-2000-NA-TAP WC-22793_3.000000-Recon 2 C-A-P-16964.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0645_01-01-2000-NA-CT LUNG SCREEN-53655_NA-87713.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0256_01-01-2000-NA-CT  CAP  WO CONT-35073_4.000000-Recon 3 C-A-P-08658.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0345_01-01-2000-NA-NA-67782_3000635.000000-NA-02207.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0751_01-01-2000-NA-NA-21035_5410.000000-ThoraxRoutine  3.0  B31s-50859.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0508_01-01-2000-NA-NA-44650_30076.000000-NA-74930.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0260_01-01-2000-NA-CT THORAX WCONTRAST-24861_2.000000-CHEST-29286.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0560_01-01-2000-NA-CT LUNG SCREEN-02875_NA-73357.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0810_01-01-2000-NA-NA-82116_30307.000000-NA-01935.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0446_01-01-2000-NA-CT CHEST O CONTR-03519_NA-50446.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0132_01-01-2000-NA-NA-67346_5418.000000-ThorRoutine  3.0  B31f-62989.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0377_01-01-2000-NA-CHEST-47002_30970.000000-NA-38925.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0878_01-01-2000-NA-NA-35340_3000009.000000-NA-16930.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0107_01-01-2000-NA-NA-91396_5591.000000-NA-44791.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0055_01-01-2000-NA-NA-26492_3000908.000000-NA-34320.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0539_01-01-2000-NA-CT CHEST O CONTR-63297_2.000000-NA-86296.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0618_01-01-2000-NA-CT LUNG SCREEN-91452_NA-76160.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0126_01-01-2000-NA-NA-94320_3000639.000000-NA-58130.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0329_01-01-2000-NA-CT LUNG SCREEN-31015_NA-41306.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0856_01-01-2000-NA-CHEST-73281_31189.000000-Recon 2 ACRIN LARGE-98200.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0513_01-01-2000-NA-NA-18609_1595.000000-NLST TLC VOL B30F-68094.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0046_01-01-2000-NA-NA-46577_3000577.000000-NA-66972.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0388_01-01-2000-NA-NA-03425_3000685.000000-NA-50679.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0468_01-01-2000-NA-NA-36933_5753.000000-ThorRoutine  2.0  B70f-97516.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0994_01-01-2000-NA-CHEST-55074_31319.000000-Recon 2 ACRIN LARGE-71547.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0694_01-01-2000-NA-CT LUNG SCREEN-20852_NA-02051.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0497_01-01-2000-NA-CT LUNG SCREEN-80488_2.000000-NA-27416.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0863_01-01-2000-NA-NA-81222_3776.000000-NLST TLC VOL B30F-28616.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0393_01-01-2000-NA-CHEST-52665_30887.000000-NA-97866.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0659_01-01-2000-NA-NA-29838_3000020.000000-NA-74972.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0636_01-01-2000-NA-NA-88599_3000662.000000-NA-87559.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0926_01-01-2000-NA-NA-39841_5343.000000-NA-06818.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0498_01-01-2000-NA-CHEST-00229_30910.000000-Recon 2 ACRIN LARGE-25349.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0021_01-01-2000-NA-NA-80793_3000570.000000-NA-02868.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0880_01-01-2000-NA-CT LUNG SCREEN-48714_NA-10197.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0646_01-01-2000-NA-NA-92895_4223.000000-NLST TLC VOL B30F-14604.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0822_01-01-2000-NA-NA-10934_30035.000000-NA-95034.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0190_01-01-2000-NA-CT THORAX WO CONTRAST-64838_3.000000-Recon 2 CHEST-06551.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0484_01-01-2000-NA-NA-71009_3100.000000-ChestRoutine  3.0  B31f-14351.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0688_01-01-2000-NA-NA-50265_30303.000000-NA-30132.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0970_01-01-2000-NA-CHEST-22947_31474.000000-NA-38096.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0664_01-01-2000-NA-NA-62273_30765.000000-NA-76488.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0855_01-01-2000-NA-NA-13854_5476.000000-ThoraxRoutine  3.0  B31f-57503.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0442_01-01-2000-NA-NA-70223_5405.000000-ThoraxRoutine  3.0  B31s-88309.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0432_01-01-2000-NA-CT CHEST-81601_31470.000000-Recon 2 ACRIN SMALL-56742.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0160_01-01-2000-NA-CT THORAX WCONTRAST-13678_3.000000-Recon 2 CHEST-67838.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0846_01-01-2000-NA-CT LUNG SCREEN-89507_NA-24616.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0068_01-01-2000-NA-CT CHEST W CONT-80168_4.000000-Recon 3 CT CHEST-26125.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0445_01-01-2000-NA-NA-90209_3000656.000000-NA-06008.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0680_01-01-2000-NA-CT LUNG SCREEN-63697_NA-61436.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0500_01-01-2000-NA-NA-80882_30827.000000-NA-15056.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0331_01-01-2000-NA-CT CHEST O CONTR-79876_NA-65150.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0574_01-01-2000-NA-CT LUNG SCREEN-45855_NA-43021.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0955_01-01-2000-NA-CHEST-02225_31509.000000-Recon 2 ACRIN LARGE-31524.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0349_01-01-2000-NA-NA-95376_3000007.000000-NA-74238.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0729_01-01-2000-NA-NA-30297_3000680.000000-NA-03237.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0697_01-01-2000-NA-CT GUIDED LUNG B-43110_2.000000-NA-90311.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0849_01-01-2000-NA-CHEST-50740_30898.000000-Recon 2 ACRIN LARGE-25236.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0235_01-01-2000-NA-CT CHEABDPEL-69281_4.000000-Recon 3 C-A-P-42103.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0326_01-01-2000-NA-CT LUNG SCREEN-06177_2.000000-NA-27052.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0064_01-01-2000-NA-NA-71210_3000612.000000-NA-48666.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0098_01-01-2000-NA-NA-97960_3094.000000-ThoraxRoutine  3.0  B31s-45271.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0474_01-01-2000-NA-NA-72976_3000045.000000-NA-66720.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0077_01-01-2000-NA-NA-74706_3000706.000000-NA-80131.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0590_01-01-2000-NA-NA-58320_30726.000000-NA-08002.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0400_01-01-2000-NA-NA-21605_3000013.000000-NA-17227.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0473_01-01-2000-NA-CT CHEST O CONTR-56991_NA-51777.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0460_01-01-2000-NA-CT THORAX WO IV CONTRA-88233_32137.000000-Recon 2 ACRIN LARGE-77950.nii.gz"
+        },
+        {
+            "image": "lidc_idri_files/LIDC-IDRI-0893_01-01-2000-NA-NA-98227_30028.000000-NA-64804.nii.gz"
+        }
+    ]
+}
