@@ -35,9 +35,9 @@ train_transforms = Compose(
                 keys=["image"], a_min=-1000, a_max=1000, b_min=0.0, b_max=1.0, clip=True
             ),
             SpatialPadd(keys="image", spatial_size=[
-                        128,128,128]),
+                        96,96,96]),
             CropForegroundd(keys=["image"], source_key="image", k_divisible=[
-                             128,128,128]),
+                             96,96,96]),
             RandSpatialCropSamplesd(
                 keys=["image"],
                 roi_size=[ 96,96,96],
