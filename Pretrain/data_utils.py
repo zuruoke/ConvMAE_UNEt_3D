@@ -1,5 +1,6 @@
 import torch
-from monai.data import CacheDataset, DataLoader, Dataset, load_decathlon_datalist
+from monai.data import CacheDataset, DataLoader, Dataset, load_decathlon_datalist, DistributedSampler
+from train_utils import get_world_size, get_rank
 from monai.transforms import (
     AddChanneld,
     Compose,
@@ -49,7 +50,7 @@ train_transforms = Compose(
         ]
     )
 
-def get_data_loader():
+def get_data_loader(args):
     datalist1 = load_decathlon_datalist(
             jsonlist1, False, "training", base_dir=datadir1)
     print("Dataset 1 LUNA16: number of data: {}".format(len(datalist1)))
@@ -117,8 +118,15 @@ def get_data_loader():
     print("Dataset all training: number of data: {}".format(len(datalist)))
 
     train_ds = Dataset(data=datalist, transform=train_transforms)
-    sampler_train = torch.utils.data.RandomSampler(train_ds)
+    
+    if args.distributed:
+        num_tasks = get_world_size()
+        global_rank = get_rank()
+        sampler_train = DistributedSampler(dataset=train_ds, num_replicas=num_tasks, rank=global_rank,  even_divisible=True, shuffle=True)
+    else:
+        sampler_train = None
+
     train_loader = DataLoader(
-            train_ds, batch_size=2, num_workers=num_workers, sampler=sampler_train, drop_last=True
+            train_ds, batch_size=4, num_workers=num_workers, sampler=sampler_train, drop_last=True
         )
     return train_loader

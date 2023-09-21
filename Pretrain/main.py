@@ -5,7 +5,7 @@ import json
 from data_utils import get_data_loader
 from model_pretrain import MaskedAutoencoderConvViT3D
 from train import train_one_epoch
-from train_utils import NativeScalerWithGradNormCount, get_world_size, init_distributed_mode, is_main_process, load_model, save_model
+from train_utils import NativeScalerWithGradNormCount, get_world_size, init_distributed_mode, is_main_process, load_model, save_model, get_rank
 from train_utils import get_rank
 import numpy as np
 import os
@@ -24,9 +24,9 @@ import timm.optim.optim_factory as optim_factory
 
 def get_args_parser():
     parser = argparse.ArgumentParser('ConvMAE pre-training', add_help=False)
-    parser.add_argument('--batch_size', default=1, type=int,
+    parser.add_argument('--batch_size', default=4, type=int,
                         help='Batch size per GPU (effective batch size is batch_size * accum_iter * # gpus')
-    parser.add_argument('--epochs', default=100, type=int)
+    parser.add_argument('--epochs', default=360, type=int)
     parser.add_argument('--accum_iter', default=1, type=int,
                         help='Accumulate gradient iterations (for increasing the effective batch size under memory constraints)')
 
@@ -83,7 +83,7 @@ def get_args_parser():
     # distributed training parameters
     parser.add_argument('--world_size', default=1, type=int,
                         help='number of distributed processes')
-    parser.add_argument('--local_rank', default=-1, type=int)
+    # parser.add_argument('--local_rank', default=-1, type=int)
     parser.add_argument('--dist_on_itp', action='store_true')
     parser.add_argument('--dist_url', default='env://',
                         help='url used to set up distributed training')
@@ -93,16 +93,27 @@ def get_args_parser():
 
 def main(args):
     init_distributed_mode(args)
+    
+    print('job dir: {}'.format(os.path.dirname(os.path.realpath(__file__))))
+    print("{}".format(args).replace(', ', ',\n'))
+
     seed = args.seed + get_rank()
     torch.manual_seed(seed)
     np.random.seed(seed)
 
     cudnn.benchmark = True
-    log_writer = None
     
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    global_rank = get_rank()
 
-    train_data_loader = get_data_loader()
+    if global_rank == 0 and args.log_dir is not None:
+        os.makedirs(args.log_dir, exist_ok=True)
+        log_writer = SummaryWriter(log_dir=args.log_dir)
+    else:
+        log_writer = None
+
+    device = torch.device(args.device)
+
+    train_data_loader = get_data_loader(args)
 
     # define the model
     
@@ -129,6 +140,10 @@ def main(args):
     print("accumulate grad iterations: %d" % args.accum_iter)
     print("effective batch size: %d" % eff_batch_size)
 
+    if args.distributed:
+        model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu], find_unused_parameters=True)
+        model_without_ddp = model.module
+
     # following timm: set wd as 0 for bias and norm layers
     param_groups = optim_factory.param_groups_weight_decay(model_without_ddp, args.weight_decay)
     optimizer = torch.optim.AdamW(param_groups, lr=args.lr, betas=(0.9, 0.95))
@@ -140,8 +155,8 @@ def main(args):
     print(f"Start training for {args.epochs} epochs")
     start_time = time.time()
     for epoch in range(args.start_epoch, args.epochs):
-        # if args.distributed:
-        #     data_loader_train.sampler.set_epoch(epoch)
+        if args.distributed:
+             train_data_loader.sampler.set_epoch(epoch)
         train_stats = train_one_epoch(
             model, train_data_loader,
             optimizer, device, epoch, loss_scaler,
@@ -170,4 +185,7 @@ def main(args):
 if __name__ == '__main__':
     args = get_args_parser()
     args = args.parse_args()
+    if 'LOCAL_RANK' in os.environ:
+        args.local_rank = int(os.environ['LOCAL_RANK'])
+        print("Setting local_rank")
     main(args)
