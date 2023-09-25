@@ -2,7 +2,7 @@ import os
 from model.convmae.model import ConvMAE
 from model.core.model import Model
 from utils.args_parser import get_args_parser
-from utils.save_file import save_to_json
+from utils.save_file import save_to_json, unload_json
 from einops import rearrange
 import torch
 from monai.losses import DiceCELoss
@@ -48,7 +48,7 @@ class Args:
 args = get_args_parser()
 args = args.parse_args()
 
-max_iterations = 10000
+max_iterations = 30000
 eval_num = 100
 post_label = AsDiscrete(to_onehot=14)
 post_pred = AsDiscrete(argmax=True, to_onehot=14)
@@ -71,11 +71,21 @@ convmae.load_state_dict(checkpoint['model'], strict=False)
 
 
 model = Model(convmae).to(device)
+path = f"{args.root_dir}/results/best_metric_model.pth"
+if os.path.exists(path):
+    model.load_state_dict(torch.load(path))
+    epoch_loss_values = unload_json(f"{args.root_dir}/results", 'epoch_loss_values')
+    metric_values =  unload_json(f"{args.root_dir}/results", 'metric_values')
+    dice_val_best = max(metric_values)
+    print("Resuming Training...")
 
 torch.backends.cudnn.benchmark = True
 loss_function = DiceCELoss(to_onehot_y=True, softmax=True)
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-5)
 scaler = torch.cuda.amp.GradScaler()
+
+if os.path.exists(f"{args.root_dir}/results/optimizer_state.pth"):
+    optimizer.load_state_dict(torch.load(f"{args.root_dir}/results/optimizer_state.pth"))
     
 
 
@@ -124,6 +134,7 @@ def train(global_step, train_loader, dice_val_best, global_step_best):
             metric_values.append(dice_val)
             save_to_json(epoch_loss_values, f"{args.root_dir}/results", 'epoch_loss_values')
             save_to_json(metric_values, f"{args.root_dir}/results", 'metric_values')
+            torch.save(optimizer.state_dict(), os.path.join(f"{args.root_dir}/results", "optimizer_state.pth"))
             if dice_val > dice_val_best:
                 dice_val_best = dice_val
                 global_step_best = global_step
